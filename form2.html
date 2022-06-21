@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="form1.css">
+    <script src="form2.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container py-3">
+        <h1 class="pb-3">Registration Form</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <label class="label">Name:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="input" id="name"><br>
+                <span id="nameerror" style="color: red;"></span>
+            </div>
+            <div class="col-md-12">
+                <label class="label">E-Mail:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="email" class="input" id="email"><br>
+                <span id="emailerror" style="color: red;"></span>
+            </div>
+            <div class="col-md-12">
+                <label class="label">Phone No.:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="input" id="number"><br>
+                <span id="numbererror" style="color: red;"></span>
+            </div>
+            <div class="col-md-12">
+                <label class="label">Password:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="password" class="input" id="p1"><br>
+                <span id="passerror" style="color: red;"></span>
+            </div>
+            <div class="col-md-12">
+                <label class="label">Confirm Password:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="password" class="input" id="p2"><br>
+                <span id="repasserror" style="color: red;"></span>
+            </div>
+            <div class="col-md-12 pt-3">
+                <input type="button" onclick="validation()" value="Submit">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
